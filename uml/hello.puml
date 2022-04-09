@@ -1,0 +1,8 @@
+@startuml hello
+
+class Hello {
+  {field} A field (despite parentheses)
+  {method} Some method
+}
+
+@enduml

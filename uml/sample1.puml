@@ -1,0 +1,21 @@
+@startuml sample1
+
+title edit review
+(*)-->"user selects edit"
+-->"open text editor"
+-->"open text"
+
+-->if "click post" then
+-->[success]"update timestamp"
+-->"post updated comment"
+-->(*)
+
+else
+
+-->[failure]"display error message"
+-->"prompt user to try again"
+-->(*)
+
+endif
+
+@enduml
