@@ -1,0 +1,48 @@
+@startuml switchcase
+
+skinparam Shadowing true
+skinparam BackgroundColor #f5f6f8
+skinparam LegendBackgroundColor #f5f6f8
+
+start
+switch (int hari = ?)
+case(kondisi 1)
+    #LightGreen:senin;
+    #LightGreen:cout << senin;
+    stop
+case(kondisi 2)
+    #LightGreen:selasa;
+    #LightGreen:cout << selasa;
+    stop
+case(kondisi 3)
+    #LightGreen:rabu;
+    #LightGreen:cout << rabu;
+    stop
+case(kondisi 4)
+    #LightGreen:kamis;
+    #LightGreen:cout << kamis;
+    stop
+case(kondisi 5)
+    #LightGreen:jumat;
+    #LightGreen:cout << jumat;
+    stop
+case(kondisi 6)
+    #LightGreen:sabtu;
+    #LightGreen:cout << sabtu;
+    stop
+case(kondisi 7)
+    #LightGreen:minggu;
+    #LightGreen:cout << minggu;
+    stop
+endswitch
+
+header 
+Pertemuan 3
+endheader
+title Selection Statements Menggunakan Switch Case
+caption copyright@esaunggul.ac.id
+legend left
+    CTI121 - Desain dan Analisa Algoritma
+endlegend
+
+@enduml

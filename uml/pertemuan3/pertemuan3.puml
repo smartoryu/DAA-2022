@@ -1,0 +1,32 @@
+@startmindmap Pertemuan 3
+
+skinparam Shadowing true
+skinparam BackgroundColor #f5f6f8
+skinparam LegendBackgroundColor #f5f6f8
+
+*[#Orange] Control Statements
+
+**[#LightGreen] Selection Statements
+***[#LightSeaGreen] if else
+***[#LightSeaGreen] switch case
+
+**[#LightBlue] Iteration Statements
+***[#LightCyan] while
+  ***[#LightCyan] do while
+
+  **[#Salmon] Jump Statements
+  ***[#LightSalmon] break
+    ***[#LightSalmon] goto
+    ***[#LightSalmon] continue
+
+    header
+      Pertemuan 3
+    endheader
+
+    title Control Statements
+    caption copyright@esaunggul.ac.id
+    legend left
+    CTI121 - Desain dan Analisa Algoritma
+    endlegend
+
+    @endmindmap

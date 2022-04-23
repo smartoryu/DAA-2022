@@ -1,0 +1,25 @@
+@startuml ifelse
+
+skinparam Shadowing true
+skinparam BackgroundColor #f5f6f8
+skinparam LegendBackgroundColor #f5f6f8
+
+start
+#LightBlue:if (int a lebih besar dari b) then (yes)
+#LightCyan:cout << a lebih besar dari b;
+else (no)
+#LightCyan:cout << b lebih besar dari a;
+endif
+stop
+
+header
+  Pertemuan 3
+
+endheader
+title Selection Statements Menggunakan If Else
+caption copyright@esaunggul.ac.id
+legend left
+CTI121 - Desain dan Analisa Algoritma
+endlegend
+
+@enduml
