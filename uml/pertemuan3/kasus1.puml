@@ -1,0 +1,46 @@
+@startuml Contoh Kasus
+
+skinparam Shadowing true
+skinparam BackgroundColor #f5f6f8
+skinparam LegendBackgroundColor #f5f6f8
+
+start
+
+if (kode baju = 1) then (true)
+#LightBlue:merk = H&R;
+
+if (ukuran baju = S) then (true)
+  #LightCyan:harga = 45000;
+(false) elseif (ukuran baju = M) then (true)
+  #LightCyan:harga = 60000;
+else (false)
+  #LightCyan:harga = 0;
+endif
+
+(false) elseif (kode baju = 2) then (true)
+#LightBlue:merk = Adidas;
+
+if (ukuran baju = S) then (true)
+  #LightCyan:harga = 65000;
+(false) elseif (ukuran baju = M) then (true)
+  #LightCyan:harga = 75000;
+else (false)
+  #LightCyan:harga = 0;
+endif
+
+else (false)
+#LightCyan:cout << Kode Salah;
+endif
+stop
+
+header
+  Pertemuan 3
+
+endheader
+title Contoh Kasus
+caption copyright@esaunggul.ac.id
+legend right
+CTI121 - Desain dan Analisa Algoritma
+endlegend
+
+@enduml
