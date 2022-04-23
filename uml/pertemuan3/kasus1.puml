@@ -1,4 +1,4 @@
-@startuml Contoh Kasus
+@startuml kasus1
 
 skinparam Shadowing true
 skinparam BackgroundColor #f5f6f8
