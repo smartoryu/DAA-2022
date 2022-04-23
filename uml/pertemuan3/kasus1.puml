@@ -6,27 +6,39 @@ skinparam LegendBackgroundColor #f5f6f8
 
 start
 
+#white:Masukkan kode baju (1/2);
+
 if (kode baju = 1) then (true)
 #LightBlue:merk = H&R;
 
+#white:Masukkan ukuran baju (S/M);
+
 if (ukuran baju = S) then (true)
-  #LightCyan:harga = 45000;
+  #LightBlue:harga = 45000;
 (false) elseif (ukuran baju = M) then (true)
-  #LightCyan:harga = 60000;
+  #LightBlue:harga = 60000;
 else (false)
-  #LightCyan:harga = 0;
+  #LightBlue:harga = 0;
 endif
+
+#LightCyan:cout << Merek baju: merk;
+#LightCyan:cout << Harga baju: harga;
 
 (false) elseif (kode baju = 2) then (true)
 #LightBlue:merk = Adidas;
 
+#white:Masukkan ukuran baju (S/M);
+
 if (ukuran baju = S) then (true)
-  #LightCyan:harga = 65000;
+  #LightBlue:harga = 65000;
 (false) elseif (ukuran baju = M) then (true)
-  #LightCyan:harga = 75000;
+  #LightBlue:harga = 75000;
 else (false)
-  #LightCyan:harga = 0;
+  #LightBlue:harga = 0;
 endif
+
+#LightCyan:cout << Merek baju: merk;
+#LightCyan:cout << Harga baju: harga;
 
 else (false)
 #LightCyan:cout << Kode Salah;
